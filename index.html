@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head -->
+<head>
+
+<title>wanglaoji.com</title>
+
+<!-- Meta-Tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="keywords" content="">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Meta-Tags -->
+
+<link rel="stylesheet" href="css/font-awesome.min.css" media="all" />
+
+<!-- Style --> <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+
+<!-- Fonts -->
+<link href="http://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+<!-- //Fonts -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?e63549519a313212faa6f4c91b2d9291";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+        function countDown() {
+            //获取初始时间
+            var time = document.getElementById("Time");
+
+            //获取到id为time标签中的数字时间
+            if (time.innerHTML == 0) {
+                //等于0时清除计时，并跳转该指定页面
+                window.location.href="https://www.baidu.com";
+            } else {
+                time.innerHTML = time.innerHTML - 1;
+            }
+        }
+
+        //1000毫秒调用一次
+        window.setInterval("countDown()", 1000);
+    </script>
+
+
+</head>
+<!-- //Head -->
+
+<!-- Body -->
+<body>
+
+	<h1>欢迎来到<span>wanglaoji.com</span> 的页面</h1>
+	<div class="w3layout-agileits">
+	<h2>欢迎！</h2>
+	<h3>页面将在5秒钟后跳转</h3>
+	<p>
+	<div id="main">
+    <div>
+        <span class="boxs">	注册成功！</span>
+    </div>
+    <div>
+        <span class="boxs">
+            本页面将在<span id="Time">5</span>秒之后跳转到登录页面！
+        </span>
+    </div>
+    <div>
+        <span style="" id="Font">
+            如未成功跳转，请<a href="javascript: window.location.href='https://www.baidu.com'">点击这里</a>
+        </span>
+    </div>
+</div>
+</p>
+	<p>Go back to your home page or you may also refresh the page</p>
+	<a href="https://renniao.com"><i class="fa fa-angle-double-left" aria-hidden="true"></i>前往人鸟影视</a>
+	</div>
+
+	<div class="w3footeragile">
+		<p>Copyright &copy; 2021.Lionsen All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+	</div>
+
+</body>
+<!-- //Body -->
+
+</html>
